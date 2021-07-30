@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- load the properties file: sport.properties -->
+    <context:property-placeholder location="classpath:sport.properties"/>
+
+    <!--
+    Add a logger config to see logging messages.
+    - For more detailed logs, set values to "FINEST"
+    - For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html
+    -->
+
+    <bean id="myLoggerConfig" class="com.anggraan.utomo.springdemo.MyLoggerConfig" init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE" />
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+    <!-- Define your beans here -->
+
+    <!-- Define the dependency -->
+    <bean id="myFortuneService"
+        class="com.anggraan.utomo.springdemo.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach"
+        class="com.anggraan.utomo.springdemo.TrackCoach">
+        <!-- Set-up constructor injection -->
+        <constructor-arg ref="myFortuneService" />
+    </bean>
+
+    <bean id="footballCoach"
+        class="com.anggraan.utomo.springdemo.practice.FootballCoach">
+    </bean>
+
+    <bean id="myCricketCoach"
+        class="com.anggraan.utomo.springdemo.CricketCoach">
+
+        <!-- Set-up setter injection -->
+        <property name="fortuneService" ref="myFortuneService"/>
+
+        <!-- inject literal values -->
+        <property name="emailAddress" value="${foo.email}"/>
+        <property name="team" value="${foo.team}"/>
+    </bean>
+
+    <!-- Latihan dependency injection volleyCoach -->
+    <!-- Define the dependency -->
+    <bean id="randomFortuneService"
+        class="com.anggraan.utomo.springdemo.practice.di.RandomFortuneService">
+    </bean>
+
+    <bean id="myVolleyCoach"
+        class="com.anggraan.utomo.springdemo.practice.di.VolleyCoach">
+        <!-- Set-up setter injection -->
+        <constructor-arg ref="randomFortuneService"/>
+    </bean>
+
+
+</beans>
