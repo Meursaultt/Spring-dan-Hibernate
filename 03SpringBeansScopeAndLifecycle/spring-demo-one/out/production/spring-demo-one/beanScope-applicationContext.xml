@@ -26,8 +26,7 @@
     </bean>
 
     <bean id="myCoach"
-        class="com.anggraan.utomo.springdemo.TrackCoach"
-        scope="prototype">
+        class="com.anggraan.utomo.springdemo.TrackCoach">
         <!-- Set-up constructor injection -->
         <constructor-arg ref="myFortuneService" />
     </bean>
