@@ -27,8 +27,7 @@
 
     <bean id="myGolfCoach"
         class="com.anggraan.utomo.springdemo.practice.scope.GolfCoach"
-        scope="singleton">
-
+        scope="prototype">
         <!-- Setup constructor injection -->
         <constructor-arg ref="myFortuneService"/>
     </bean>
