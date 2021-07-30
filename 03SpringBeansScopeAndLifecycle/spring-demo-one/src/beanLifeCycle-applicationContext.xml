@@ -27,7 +27,8 @@
 
     <bean id="myCoach"
         class="com.anggraan.utomo.springdemo.TrackCoach"
-        scope="prototype">
+        init-method="doMyStartupStuff"
+        destroy-method="doMyCleanupStuff">
         <!-- Set-up constructor injection -->
         <constructor-arg ref="myFortuneService" />
     </bean>
