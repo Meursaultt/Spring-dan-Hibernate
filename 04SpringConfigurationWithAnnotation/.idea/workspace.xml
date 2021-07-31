@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="533ae1ce-25ea-4dec-8c8b-5f4331cd6a7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/AnnotationDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/AnnotationDemoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/TennisCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/TennisCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anggraan/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anggraan/springdemo/AnnotationDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anggraan/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anggraan/springdemo/TennisCoach.java" afterDir="false" />
-    </list>
+    <list default="true" id="533ae1ce-25ea-4dec-8c8b-5f4331cd6a7f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627623947931</updated>
       <workItem from="1627623947985" duration="2462000" />
+      <workItem from="1627699333083" duration="595000" />
     </task>
     <servers />
   </component>
