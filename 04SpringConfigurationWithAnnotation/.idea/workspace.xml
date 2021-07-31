@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="533ae1ce-25ea-4dec-8c8b-5f4331cd6a7f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/AnnotationDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/AnnotationDemoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/TennisCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04SpringConfigurationWithAnnotation/com/anggraan/springdemo/TennisCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anggraan/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anggraan/springdemo/AnnotationDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anggraan/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anggraan/springdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/anggraan/springdemo/Coach.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/anggraan/springdemo/TennisCoach.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/applicationContext.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/anggraan/springdemo/AnnotationDemoApp.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -67,7 +77,7 @@
       <recent name="C:\Users\ASUS\Documents\Development\Java\SpringHibernate\04SpringConfigurationWithAnnotation\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExerAnnotationApp">
     <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anggraan.springdemo.AnnotationDemoApp" />
       <module name="04SpringConfigurationWithAnnotation" />
@@ -81,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExerAnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anggraan.springdemo.ExerAnnotationApp" />
+      <module name="04SpringConfigurationWithAnnotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anggraan.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerAnnotationApp" />
         <item itemvalue="Application.AnnotationDemoApp" />
       </list>
     </recent_temporary>
@@ -95,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627623947931</updated>
-      <workItem from="1627623947985" duration="719000" />
+      <workItem from="1627623947985" duration="2462000" />
     </task>
     <servers />
   </component>
