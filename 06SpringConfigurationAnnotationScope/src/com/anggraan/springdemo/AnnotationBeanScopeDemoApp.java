@@ -11,5 +11,13 @@ public class AnnotationBeanScopeDemoApp
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // retrieve bean from spring container
+        Coach coach = context.getBean("tennisCoach", Coach.class);
+        Coach alphaCoach = context.getBean("tennisCoach", Coach.class);
+
+        // check if they are same
+        boolean result = coach == alphaCoach;
+        System.out.println(">> Pointing to the same object: " + result);
+        System.out.println(">> Memory location coach: " + coach);
+        System.out.println(">> Memory location alphaCoach: " + alphaCoach);
     }
 }
