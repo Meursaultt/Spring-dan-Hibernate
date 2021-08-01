@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class TennisCoach implements Coach
 {
+    // field injection otomatis dengan teknologi java reflection
+    @Autowired
     private FortuneService fortuneService;
 
     // define a default constructor
@@ -29,12 +31,14 @@ public class TennisCoach implements Coach
         this.fortuneService = fortuneService;
     }*/
 
+/*
     @Autowired
     public void doSomeCrazyStuff(FortuneService fortuneService)
     {
         System.out.println(">> TennisCoach inside setFortuneService() method");
         this.fortuneService = fortuneService;
     }
+*/
 
     @Override
     public String getDailyWorkout()
