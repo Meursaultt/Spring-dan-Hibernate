@@ -9,7 +9,7 @@ public class TennisCoach implements Coach
 {
     // field injection otomatis dengan teknologi java reflection
     @Autowired
-    @Qualifier("happyFortuneService")
+    @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
 
     // define a default constructor
